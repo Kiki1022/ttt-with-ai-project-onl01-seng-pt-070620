@@ -51,8 +51,10 @@ class Game
     
     def turn
      puts "Please enter a number between 1 and 9."
-     num = gets.strip
-     index = input_to_index(num)
+     input = gets.strip
+     
+      if @board.valid_move?(input)
+        
     end
     # def turn
     #    
