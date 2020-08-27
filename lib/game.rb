@@ -52,11 +52,12 @@ class Game
     def turn
      puts "Please enter a number between 1 and 9."
      num = gets.strip
+     index = input_to_index(num)
     end
     # def turn
     #    
     #     num = gets.strip 
-    #     index = input_to_index(num)
+    #     
     #       if valid_move?(index)
     #         move(index, current_player)
     #         display_board
