@@ -50,7 +50,7 @@ class Game
     end
     
     def turn
-    @board.valid move?
+    @board.valid_move?
     end
 
 end
